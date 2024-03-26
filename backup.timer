@@ -1,0 +1,9 @@
+[Unit]
+Description=Backup Dasturi Timer
+
+[Timer]
+OnUnitInactiveSec=0.1m
+Unit=backup.service
+
+[Install]
+WantedBy=timers.target

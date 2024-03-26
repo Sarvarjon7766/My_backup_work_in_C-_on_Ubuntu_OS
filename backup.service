@@ -1,0 +1,13 @@
+
+
+[Unit]
+Description=Backup Dasturi
+
+[Service]
+ExecStart=/home/sarvar/sarvarrr/backup
+Restart=always
+User=sarvar
+
+[Install]
+WantedBy=multi-user.target
+
